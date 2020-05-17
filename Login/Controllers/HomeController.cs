@@ -58,7 +58,7 @@ namespace Login.Controllers
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
+       
         public ActionResult Register(User _user)
         {
             if (ModelState.IsValid)
