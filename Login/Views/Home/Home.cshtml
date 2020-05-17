@@ -1,0 +1,22 @@
+﻿@model Login.Models.User
+
+@{
+    ViewBag.Title = "Index";
+
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+</head>
+<body>
+    <div> 
+        <h1>@Session["UserName"].ToString()</h1>
+        <h1>@Session["Password"].ToString()</h1>
+    </div>
+</body>
+</html>
